@@ -1,0 +1,106 @@
+#main {
+    
+    background-image:url("../images/backgroun1.png");
+    background-size:cover;
+    height: 120vh;
+}
+body {
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 1.2rem;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.header-main {
+    color:#fff;
+    margin: 1rem 0;
+}
+.nav-item {
+    margin: 0 20px;
+}
+.btn-space {
+    margin-top: 20px;
+}
+.img-space {
+    margin-top: 20px;
+}
+.Who-are-title {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 5px 0 ;
+}
+.overview-icon {
+    font-size: 3rem;
+    padding: 1rem 0;
+    color:#326AAB;
+}
+#testimonials {
+    background-color: #326AAB;
+    margin-top: 100px;
+    padding: 100px 0;
+}
+.section-title {
+    font-size:3rem;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.carousel-item h3 {
+    font-size: 2.5rem;
+}
+.card {
+    padding: 10px 10px;
+    border-color: #326AAB;
+    border-radius: 10px;
+    box-shadow: 0px 3px 63px -12px rgba(0, 0, 0, 75);
+    margin: 25px 0px;
+    height: 450px;
+}
+.card-title {
+    color:#5a34fc;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.btn-block {
+    background-color: #326AAB;
+    outline: none;
+}
+.btn-block:hover {
+    background-color: rgb(6, 64, 126);
+}
+.btn-block:active {
+    background-color: rgb(6, 64, 126) !important;
+}
+#cta {
+    background-color: #326AAB;
+    padding: 7% 15%;
+}
+.cta-text {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+}
+/* footer  */
+#footer {
+    height: 200px;
+}
+.footer-icon {
+    font-size: 2rem;
+    color:#326AAB;
+    padding: 5% 3%;
+}
+@media only screen and (max-width:460px) {
+    .iphone-mock {
+        display: none;
+    }
+    .media-query {
+        border-color: black;
+        color:black;
+    }
+    .text-color-media {
+    color:black;
+    font-weight: bold;
+    }
+    }
